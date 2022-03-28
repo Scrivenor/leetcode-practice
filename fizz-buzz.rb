@@ -7,7 +7,7 @@ def fizz_buzz(n)
   while i <= n-1
     
     if ((i+1) % 3) == 0 && ((i+1) % 5) == 0
-      retArray[i] = "Fizzbuzz"
+      retArray[i] = "FizzBuzz"
     elsif ((i+1) % 3) == 0
       retArray[i] = "Fizz"
     elsif ((i+1) % 5) == 0
@@ -16,9 +16,6 @@ def fizz_buzz(n)
       retArray[i] = (i+1).to_s
     end
     i += 1
-
-  #   when ((i+1) % 3) == 0 && ((i+1) % 5) == 0
-  #     retArray[i] = "FizzBuzz"
   end
 
   retArray
