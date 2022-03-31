@@ -17,4 +17,4 @@ def number_of_steps( num )
     
 end
 
-p number_of_steps( 8 )
+# p number_of_steps( 8 )
