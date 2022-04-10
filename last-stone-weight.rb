@@ -15,7 +15,7 @@ def last_stone_weight(stones)
       stones[stones.index( y )] = y - x
     end
   end
-  p stones
+  # p stones
   last_stone_weight(stones)
 
 end
